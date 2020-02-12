@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SampleSuite,Chrome 79.0.3945.130,,,2020-02-12 10:32:19,2020-02-12 10:32:42,23.772s,PASSED
+,,,,,,,
+Test Cases/TC01_VerifyMenus,Chrome 79.0.3945.130,,,2020-02-12 10:32:19,2020-02-12 10:32:42,23.132s,PASSED
+Start setup action : setupTestCase,Chrome 79.0.3945.130,,,2020-02-12 10:32:19,2020-02-12 10:32:32,12.566s,PASSED
+pages.DashboardPage.clickMenus(),Chrome 79.0.3945.130,,,2020-02-12 10:32:32,2020-02-12 10:32:40,7.502s,PASSED
+Start tear down : tearDownTestCase,Chrome 79.0.3945.130,,,2020-02-12 10:32:40,2020-02-12 10:32:42,2.632s,PASSED

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SampleSuite" time="24.223" tests="1" failures="0" errors="0">
+   <testsuite name="SampleSuite" tests="1" failures="0" errors="0" time="24.223" timestamp="2020-02-12 10:32:19" hostname="nooryeaserkhan - 192.168.1.104" id="Test Suites/SampleSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nooryeaserkhan/git/OrangeHRM_KS_Keywords/Reports/20200212_103202/SampleSuite/20200212_103202"/>
+         <property name="logFiles" value="/Users/nooryeaserkhan/git/OrangeHRM_KS_Keywords/Reports/20200212_103202/SampleSuite/20200212_103202/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nooryeaserkhan - 192.168.1.104"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="sessionId" value="7634f3c4b15a8fc24a275d4a18e3f4c7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC01_VerifyMenus" time="23.132" classname="Test Cases/TC01_VerifyMenus" status="PASSED">
+         <system-out><![CDATA[2020-02-12 10:32:19 - [TEST_CASE][PASSED] - Test Cases/TC01_VerifyMenus: Test Cases/TC01_VerifyMenus
+
+2020-02-12 10:32:19 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2020-02-12 10:32:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-12 10:32:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-12 10:32:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-12 10:32:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-12 10:32:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-02-12 10:32:24 - [MESSAGE][PASSED] - Current window maximized
+
+2020-02-12 10:32:24 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-02-12 10:32:28 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-02-12 10:32:28 - [TEST_STEP][PASSED] - pages.LoginPage.userLogsIn(username, password): pages.LoginPage.userLogsIn is PASSED
+
+2020-02-12 10:32:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_Username' is clickable
+
+2020-02-12 10:32:29 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Login/span_Username'
+
+2020-02-12 10:32:29 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/span_Password'
+
+2020-02-12 10:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_Password_Submit' is clicked on
+
+2020-02-12 10:32:32 - [MESSAGE][PASSED] - pages.LoginPage.userLogsIn is PASSED
+
+2020-02-12 10:32:32 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2020-02-12 10:32:32 - [TEST_STEP][PASSED] - pages.DashboardPage.clickMenus(): pages.DashboardPage.clickMenus is PASSED
+
+2020-02-12 10:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard/b_Admin' is clicked on
+
+2020-02-12 10:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard/b_Leave' is clicked on
+
+2020-02-12 10:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard/b_PIM' is clicked on
+
+2020-02-12 10:32:40 - [MESSAGE][PASSED] - pages.DashboardPage.clickMenus is PASSED
+
+2020-02-12 10:32:40 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2020-02-12 10:32:40 - [TEST_STEP][PASSED] - pages.DashboardPage.userLogsOut(): pages.DashboardPage.userLogsOut is PASSED
+
+2020-02-12 10:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard/a_Welcome Admin' is clicked on
+
+2020-02-12 10:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard/a_Logout' is clicked on
+
+2020-02-12 10:32:42 - [MESSAGE][PASSED] - pages.DashboardPage.userLogsOut is PASSED
+
+2020-02-12 10:32:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-12 10:32:42 - [MESSAGE][PASSED] - Browser is closed
+
+2020-02-12 10:32:42 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-12 10:32:19 - [TEST_SUITE][PASSED] - SampleSuite: Test Cases/TC01_VerifyMenus]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

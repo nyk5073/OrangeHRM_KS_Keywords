@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SampleSuite,Chrome 79.0.3945.130,,,2020-02-12 10:28:09,2020-02-12 10:28:20,10.933s,ERROR
+,,,,,,,
+Test Cases/TC01_VerifyMenus,Chrome 79.0.3945.130,,,2020-02-12 10:28:10,2020-02-12 10:28:20,10.175s,ERROR
+Start setup action : setupTestCase,Chrome 79.0.3945.130,,,2020-02-12 10:28:10,2020-02-12 10:28:20,10.089s,ERROR
